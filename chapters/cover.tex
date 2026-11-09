@@ -1,0 +1,11 @@
+% cover
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[teal] (current page.north west) rectangle ([yshift=-120mm]current page.north east);
+  \fill[orange] ([yshift=-120mm]current page.north west) rectangle ([yshift=-121.1mm]current page.north east);
+  \fill[cream] ([yshift=-121.1mm]current page.north west) rectangle (current page.south east);
+  \node[anchor=west,text=white] at ([xshift=17mm,yshift=-51mm]current page.north west)
+       {\titlefont\itshape\fontsize{24}{28}\selectfont Read to Remember};
+  \node[anchor=west,text=white] at ([xshift=17mm,yshift=-70mm]current page.north west)
+       {\cjkheavy\fontsize{33}{37}\selectfont 读文章\,记单词};
+\end{tikzpicture}

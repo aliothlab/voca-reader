@@ -1,0 +1,78 @@
+% table of contents
+\SectionBand{目录}{CONTENTS}
+
+\definecolor{tocline}{HTML}{EADFCB}
+% A5: number | title, then Chinese title and genre on a second line | page number
+\newcommand\TOCROW[5]{\par\noindent\begin{tabular}{@{}p{9mm}@{}p{101mm}@{}p{12mm}@{}}
+  \leavevmode\rule{0pt}{13pt}{\bfseries\fontsize{12}{13}\selectfont\color{teal}#1} &
+  \raggedright\leavevmode{\bfseries\fontsize{10.2}{13}\selectfont\color{black!85}#2}%
+  \ifboolexpr{test {\ifstrempty{#3}} and test {\ifstrempty{#4}}}{}{\\[1pt]{\fontsize{9}{12}\selectfont\color{black!55}#3}%
+  \ifstrempty{#4}{}{\enspace{\cjksans\labelfont\fontsize{8}{12}\selectfont\color{orange}#4}}} &
+  \hfill{\fontsize{10.2}{13}\selectfont\color{black!80}#5}
+  \end{tabular}\par
+  \vspace{4.5pt}{\color{tocline}\hrule height 0.5pt}\vspace{5pt}}
+
+\TOCROW{}{Key to the Notes}{页面符号说明}{}{\pageref{sec:key}}
+\TOCROW{}{Basic Words}{基础词表}{}{\pageref{sec:basic}}
+\TOCROW{}{Everyday Nouns}{生活常用名词}{}{\pageref{sec:everyday}}
+\TOCROW{1}{One Way Into the Dark}{坠入黑洞的最后时刻}{科普故事 · Popular Science}{\pageref{lesson1}}
+\TOCROW{2}{China's Fujian Throws Jets into the Sky}{福建舰的电磁弹射}{科学新闻 · Science News}{\pageref{lesson2}}
+\TOCROW{3}{Whose Lucky Money Is It?}{压岁钱到底归谁？}{社会新闻 · News Story}{\pageref{lesson3}}
+\TOCROW{4}{A Cheap AI Shakes the World}{便宜的AI，震动了华尔街}{科学新闻 · Science News}{\pageref{lesson4}}
+\TOCROW{5}{In This League, Delivery Drivers Are Stars}{外卖骑手踢热了家乡}{专题报道 · Feature}{\pageref{lesson5}}
+\TOCROW{6}{The Chip That Helped Dong Hui Write Again}{瘫痪六年，他又能写字了}{科学新闻 · Science News}{\pageref{lesson6}}
+\TOCROW{7}{The Boy Who Found a Masterpiece in the Rubbish}{垃圾场里捡回的名画}{真实故事 · True Story}{\pageref{lesson7}}
+\TOCROW{8}{The Boy Who Had Everything, and Then Nothing to Chase}{苏翊鸣：夺冠之后再出发}{人物故事 · Profile}{\pageref{lesson8}}
+\TOCROW{9}{Three Doors, One Car and a Puzzle That Fools Everyone}{三扇门背后的思维陷阱}{专题报道 · Feature}{\pageref{lesson9}}
+\TOCROW{10}{One in Two Thousand}{两千分之一的电竞梦}{专题报道 · Feature}{\pageref{lesson10}}
+\TOCROW{11}{Questions for My Fireman Dad}{小记者采访消防员爸爸}{采访实录 · Interview}{\pageref{lesson11}}
+\TOCROW{12}{Under Two Hours, and Still Second}{跑进两小时，却只得第二}{体育新闻 · Sports News}{\pageref{lesson12}}
+\TOCROW{13}{You've Won a Nobel Prize!" "Yeah, Right.}{诺奖来电？先别挂！}{趣味新闻 · Fun News}{\pageref{lesson13}}
+\TOCROW{14}{Naruto Is Coming to Hollywood}{《火影忍者》要拍真人版了}{娱乐新闻 · Entertainment News}{\pageref{lesson14}}
+\TOCROW{15}{Fast and Furious on the Water}{广东房东的龙舟“速度与激情”}{专题报道 · Feature}{\pageref{lesson15}}
+\TOCROW{16}{A Boot on Everest}{珠峰百年之谜：欧文在哪里}{专题报道 · Feature}{\pageref{lesson16}}
+\TOCROW{17}{Two Points, One Stone, and a World Final}{一颗棋子，输掉世界冠军？}{体育新闻 · Sports News}{\pageref{lesson17}}
+\TOCROW{18}{How Ne Zha Beat Star Wars}{哪吒二：火遍全球的中国动画}{影评 · Film Review}{\pageref{lesson18}}
+\TOCROW{19}{Harry Potter Meets the Old Storyteller}{评书先生讲《哈利·波特》}{专题报道 · Feature}{\pageref{lesson19}}
+\TOCROW{20}{Three Suns, No Way to Know: The Real Maths Behind 3 Body Problem}{三体问题：从牛顿到网飞}{科普专题 · Science Feature}{\pageref{lesson20}}
+\TOCROW{21}{Rapping in the Language of Home}{用家乡话唱出的说唱}{专题报道 · Feature}{\pageref{lesson21}}
+\TOCROW{22}{The Boy Who Became a Sports Channel}{甲亢哥：直播也是一项运动}{人物故事 · Profile}{\pageref{lesson22}}
+\TOCROW{23}{Lost in the Yellow Rooms}{从网络怪谈到大银幕}{专题报道 · Feature}{\pageref{lesson23}}
+\TOCROW{24}{Starting Again in Germany}{樊振东：换个地方打球}{人物故事 · Profile}{\pageref{lesson24}}
+\TOCROW{25}{Wemby's Secret Ten Days at Shaolin}{NBA 球星的少林十日}{真实故事 · True Story}{\pageref{lesson25}}
+\TOCROW{26}{The Fishermen Who Rowed Into the Gunfire}{渔民划向枪林弹雨}{真实故事 · True Story}{\pageref{lesson26}}
+\TOCROW{27}{From Unhappy Accountant to Underwater Hero}{从会计到奥斯卡舞台}{人物故事 · Profile}{\pageref{lesson27}}
+\TOCROW{28}{Seventeen Drivers and a Tent}{日本学生搭车三十天}{真实故事 · True Story}{\pageref{lesson28}}
+\TOCROW{29}{The Supercars That Never Arrived}{凭空消失的豪车}{专题报道 · Feature}{\pageref{lesson29}}
+\TOCROW{30}{One Pen, One Lamp, One Night}{开学前夜的作业大冲刺}{幽默随笔 · Humorous Essay}{\pageref{lesson30}}
+\TOCROW{31}{Riding the "Slow Radish" Taxis of Wuhan}{坐上武汉的无人驾驶出租车}{专题报道 · Feature}{\pageref{lesson31}}
+\TOCROW{32}{Cookies Made from Plastic Bottles}{塑料瓶变成了饼干}{科学新闻 · Science News}{\pageref{lesson32}}
+\TOCROW{33}{Is Your Phone Lying About the Moon?}{手机拍的月亮是真的吗？}{科技报道 · Tech Feature}{\pageref{lesson33}}
+\TOCROW{34}{286 Days on an Eight-Day Trip}{太空里的286天}{真实故事 · True Story}{\pageref{lesson34}}
+\TOCROW{35}{Why Teenage Boys Stop Reading}{男孩为什么不爱读书了}{教育新闻 · Education News}{\pageref{lesson35}}
+\TOCROW{36}{The Dogs That Learn by Listening In}{靠“旁听”学单词的狗}{科学新闻 · Science News}{\pageref{lesson36}}
+\TOCROW{37}{The Man Who Let Snakes Bite Him}{被蛇咬了两百多次的人}{人物故事 · Profile}{\pageref{lesson37}}
+\TOCROW{38}{The Car That Became a Guitar}{我把旧车变成了吉他}{科学随笔 · Science Essay}{\pageref{lesson38}}
+\TOCROW{39}{The Bowl That Took Over China}{一碗麻辣烫，火遍全中国}{专题报道 · Feature}{\pageref{lesson39}}
+\TOCROW{40}{Are They Really Dire Wolves?}{恐狼真的“复活”了吗？}{科学新闻 · Science News}{\pageref{lesson40}}
+\TOCROW{41}{Gone Fishing}{年轻人爱上了钓鱼}{专题报道 · Feature}{\pageref{lesson41}}
+\TOCROW{42}{A Museum at Gate 5}{机场地下的千年宝藏}{专题报道 · Feature}{\pageref{lesson42}}
+\TOCROW{43}{Who Clears the Plate?}{谁来收拾盘子？}{专题报道 · Feature}{\pageref{lesson43}}
+\TOCROW{44}{Ripped at Fourteen}{13岁就开始练肌肉？}{专题报道 · Feature}{\pageref{lesson44}}
+\TOCROW{45}{1,600 Kilometres for a Box of Durian}{千里追回一箱榴莲}{真实故事 · True Story}{\pageref{lesson45}}
+\TOCROW{46}{Please Don't Erase the Blackboard!}{千万别擦科学家的黑板}{专题报道 · Feature}{\pageref{lesson46}}
+\TOCROW{47}{Number 300 in Line}{排到300号的夜间急诊}{新闻报道 · News Report}{\pageref{lesson47}}
+\TOCROW{48}{Pirates of Ancient China}{中国古代的海盗}{历史专题 · History Feature}{\pageref{lesson48}}
+\TOCROW{49}{One Last Pair}{620场比赛，他只穿这一款鞋}{体育专题 · Sports Feature}{\pageref{lesson49}}
+\TOCROW{50}{The Farmer Who Built a Submarine}{农民自己造潜艇}{人物故事 · Profile}{\pageref{lesson50}}
+\TOCROW{51}{Robots That Dance — But Can They Do the Dishes?}{机器人会跳舞，为何不洗碗？}{专题报道 · Feature}{\pageref{lesson51}}
+\TOCROW{52}{The Stolen iPhone That Went to Church}{被偷的手机为何都“去”了教堂？}{专题报道 · Feature}{\pageref{lesson52}}
+\TOCROW{53}{The City of Darkness}{九龙城寨：被遗忘的城中城}{历史故事 · History}{\pageref{lesson53}}
+\TOCROW{54}{The Nine Days the Earth Hummed}{地球嗡嗡响了九天}{科学新闻 · Science News}{\pageref{lesson54}}
+\TOCROW{55}{Into the Eye of the Storm}{追着台风跑的年轻人}{人物故事 · Profile}{\pageref{lesson55}}
+\TOCROW{56}{Chasing the Lucky Card}{一包卡牌里的运气}{专题报道 · Feature}{\pageref{lesson56}}
+\TOCROW{57}{134 Days Without a Phone}{134天不用手机游中国}{真实故事 · True Story}{\pageref{lesson57}}
+\TOCROW{58}{Four Million Gamers Beat the Computer}{四百万玩家打败了电脑}{科学新闻 · Science News}{\pageref{lesson58}}
+\TOCROW{59}{Fireworks That Fly}{浏阳烟花飞上无人机}{人物故事 · Profile}{\pageref{lesson59}}
+\TOCROW{60}{Red Carpet, Pandas and Hard Bargaining}{红毯背后的中美较量}{新闻分析 · News Analysis}{\pageref{lesson60}}
+\clearpage
